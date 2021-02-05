@@ -52,7 +52,7 @@ const ProductCard = ({ product }) => {
         }
               actions={[
                   <Link to={`/product/${slug}`}>
-                      <EyeOutlined className="text-info"/> <br/> Посмотреть товар
+                      <EyeOutlined className="text-info"/> <br/> View product
                   </Link>,
                   <Tooltip title={tooltip}>
                       <a onClick={handleAddToCart} disabled={product.quantity < 1}>
