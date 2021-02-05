@@ -1,0 +1,12 @@
+{
+  "name": "ecomm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^5.3.0"
+  },
+  "scripts": {
+    "start": "concurrently \"(npm start --prefix client)\" \"(npm start --prefix server)\""
+  }
+}

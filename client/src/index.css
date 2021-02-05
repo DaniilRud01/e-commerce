@@ -1,0 +1,11 @@
+.slide img{
+    height: 450px;
+    object-fit: contain;
+}
+.carousel .slide{
+      background-color: white !important;
+}
+
+.pointer{
+    cursor: pointer;
+}
