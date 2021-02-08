@@ -40,10 +40,10 @@ const Header = () => {
                 <Link to='/'>Home</Link>
             </Item>
             <Item key="shop" icon={<ShoppingOutlined/>}>
-                <Link to='/shop'>Shop</Link>
+                <Link to='/'>Shop</Link>
             </Item>
             <Item key="cart" icon={<ShoppingCartOutlined/>}>
-                <Link to='/cart'>
+                <Link to='/'>
                 <Badge count={cart.length} offset={[9,0]}>
                     Cart
                 </Badge>

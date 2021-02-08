@@ -18,7 +18,7 @@ const AllProducts = () => {
 
     const loadingAllProducts = () => {
         setLoading(true)
-        getCountProduct(5)
+        getCountProduct(40)
             .then((res) => {
                 setLoading(false)
                 setProducts(res.data)

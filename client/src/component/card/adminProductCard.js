@@ -13,7 +13,7 @@ const AdminProductCard = ({ product, handleRemoveProduct }) => {
 
     return (
         <Card cover={
-            <img src={ images && images.length ? images[1].url : noImage } style={{ height: '250px', ObjectFit: 'contain' }}
+            <img src={ images && images.length ? images[0].url : noImage } style={{ height: '250px', ObjectFit: 'contain' }}
                  className="p-2"/>
         }
               actions={[
